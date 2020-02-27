@@ -39,6 +39,13 @@ def confirm():
     password = request.args.get("password")
     # i heard you were missing some code...
     #   - RCC <3
+    return "uh oh"
+
+# example route from Jack's slides
+@app.route("/example")
+def example():
+    return render_template("example.html")
+
 
 
 # Here is our last route, which writes the target

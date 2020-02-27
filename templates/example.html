@@ -1,0 +1,9 @@
+<input type="text" id="some-ID"></input>
+<button type="button" onclick="clickButton()">Click Me!</button>
+
+<script>
+  function clickButton() {
+    input_text = document.getElementById("some-ID").value;
+    window.location = "/activate?name=" + input_text;
+  }
+</script>
