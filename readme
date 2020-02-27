@@ -1,0 +1,21 @@
+This is the missile launch system!
+Be careful with it!
+
+It works by hosting a webserver
+in Python that allows the user
+to activate the missile, set a
+target, and confirm the launch.
+
+The target is stored in the file
+"target", and the html files are
+in the "templates" folder.
+
+The launch system is started
+using a bash file (run.sh) that
+simply runs the python script
+"webserver.py".
+
+Make sure this doesn't go offline!
+
+You never know when the nuclear war
+will strike...
